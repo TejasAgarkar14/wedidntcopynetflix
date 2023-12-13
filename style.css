@@ -1,0 +1,433 @@
+/* /* .logo{
+    position: ;
+
+} */
+
+html, body {
+    /* max-width: 100%;
+    overflow-x: hidden; */
+    overflow-x: hidden;
+}
+  
+
+/* .netflixcoverimg{ */
+    /* justify-content: center; */
+    /* width: 100%; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("netflixbgcoverimg.jpg")); */
+    /* background-image: linear-gradient(red, yellow, blue); */
+    /* Set a specific height */
+    /* height: 50%; */
+
+    /* Position and center the image to scale nicely on all screens */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* position: relative; */
+
+/* } */
+
+/* .covergradientbox{
+    position: relative;
+
+    background: linear-gradient(rgba(0, 0, 0, 20), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 20));
+
+}  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.navigation {
+    color: red;
+    position: absolute;
+    z-index: 2;
+    padding: 10px 50px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navigation :hover{
+    transition-duration: 0.15s;
+    opacity: 0.80;
+}
+
+
+.homesection{
+    position:  relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(file:///C:/Users/LENOVO/OneDrive/Desktop/tejasfoldercuzheishandsome/netflixClone/netflixbgcoverimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1;
+    /* opacity: 0.6; */
+    background: linear-gradient(rgba(0,0,0,10), rgba(0,0,0,0.6), rgba(0,0,0,10));
+}
+
+.activebtn {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+/* 
+.activebtn :hover{
+    transition-duration: 0.15s;
+    opacity: 0.80;
+} */
+
+
+.langbtn {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 20px;
+}
+
+/* .langbtn :hover{
+    transition-duration: 0.15s;
+    opacity: 0.80;
+} */
+
+
+/* website-logo ke liye */
+.logo{
+    width: 138px;
+    position: top-left;
+    transform: translate(20%, -28%);
+    left: 50%;
+    z-index: 3;
+}
+
+
+
+.homeheading {
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+}
+
+.heading {
+    top: 50%;
+    font-size: 2.0rem;
+}
+
+.subheading {
+    font-size: 1.3rem;
+    font-weight: 400;
+    top: 43%;
+    margin-top: 50px;
+}
+
+
+.minorheading {
+    font-size: 0.8rem;
+    width: 80%;
+    font-weight: 400;
+    top: 44.5%;
+    margin-bottom: 100px;
+
+}
+
+.search input {
+    font-size: large;
+    width: 500px;
+    /* font-size: 2rem; */
+    background: transparent;
+    /* padding: 10px 10px 10px 10px; */
+    z-index: 4;
+    outline: none;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(56, 56, 56);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    color: antiquewhite;
+}
+
+.search button {
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bolder;
+    z-index: 10;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.search :hover{
+    transition-duration: 0.15s;
+    opacity: 0.80;
+}
+
+.search {
+    z-index: 10;
+    position: absolute;
+    bottom: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+/* THIS LINE CODE CAN BE REUSED AGAIN & AGAIN */
+
+.line1{
+    margin-bottom: 50px;
+    background: rgb(46, 46, 46);
+    height: 9px;
+    width: 2000px;
+}
+
+
+.phrasebig1 {
+    font-size: 2.0rem;
+    
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+}
+
+.phrasesmall1 {
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+}
+
+.imganimation1 {
+    margin-left: 410px;
+    background: linear-gradient(rgba(0,0,0,10), rgba(0,0,0,0.6), rgba(0,0,0,10));
+    margin-bottom: 100px;
+    margin-top: 20px;
+    
+
+
+}
+
+ /* Now next segment 2 ---->*/
+
+ 
+.line2{
+    margin-bottom: 50px;
+    background: rgb(46, 46, 46);
+    height: 9px;
+    width: 2000px;
+}
+
+
+.phrasebig2 {
+    font-size: 2.0rem;
+    
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+}
+
+.phrasesmall2 {
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+}
+
+.imganimation2 {
+    margin-left: 270px;
+    background: linear-gradient(rgba(0,0,0,10), rgba(0,0,0,0.6), rgba(0,0,0,10));
+    margin-bottom: 100px;
+    margin-top: 20px;
+
+}
+
+
+/* New segment 3-------------> */
+
+
+.line3{
+    margin-bottom: 50px;
+    background: rgb(46, 46, 46);
+    height: 9px;
+    width: 2000px;
+}
+
+
+.phrasebig3 {
+    font-size: 2.0rem;
+    
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+}
+
+.phrasesmall3 {
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+}
+
+.imganimation3 {
+    margin-left: 470px;
+    background: linear-gradient(rgba(0,0,0,10), rgba(0,0,0,0.6), rgba(0,0,0,10));
+    margin-bottom: 100px;
+    margin-top: 20px;
+
+}
+
+
+/* new segment final segment 4-----------> */
+
+
+
+
+.line4{
+    margin-bottom: 50px;
+    background: rgb(46, 46, 46);
+    height: 9px;
+    width: 2000px;
+}
+
+
+.phrasebig4 {
+    font-size: 2.0rem;
+    
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+}
+
+.phrasesmall4 {
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    z-index: 3;
+}
+
+.imganimation4 {
+    margin-left: 300px;
+    background: linear-gradient(rgba(0,0,0,10), rgba(0,0,0,0.6), rgba(0,0,0,10));
+    margin-bottom: 100px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+I got this block of code for our website to make things responsive from a article ---->*/
+
+@media screen and (max-width: 440px) {
+    .heading {
+        top: 30%;
+        font-size: 2rem;
+    }
+
+    .sub-heading {
+        font-size: 1.2rem;
+        top: 30%;
+        width: 80%;
+    }
+
+    .minor-heading {
+        top: 34%;
+    }
+
+    .search {
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .navigation h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .buttons {
+        display: none;
+    }
+}
