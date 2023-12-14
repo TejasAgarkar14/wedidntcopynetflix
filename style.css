@@ -1,435 +1,270 @@
-/* /* .logo{
-    position: ;
-
-} */
-
-html, body {
-    /* max-width: 100%;
-    overflow-x: hidden; */
-    overflow-x: hidden;
-}
-  
-
-/* .netflixcoverimg{ */
-    /* justify-content: center; */
-    /* width: 100%; */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("netflixbgcoverimg.jpg")); */
-    /* background-image: linear-gradient(red, yellow, blue); */
-    /* Set a specific height */
-    /* height: 50%; */
-
-    /* Position and center the image to scale nicely on all screens */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* position: relative; */
-
-/* } */
-
-/* .covergradientbox{
-    position: relative;
-
-    background: linear-gradient(rgba(0, 0, 0, 20), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 20));
-
-}  */
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
-
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins', sans-serif;
-    box-sizing: border-box;
+    background-color: black;
+    width: auto;
 }
 
-.navigation {
-    color: red;
-    position: absolute;
-    z-index: 2;
-    padding: 10px 50px;
-    margin: 10px 0;
+/** features section **/
+.features{
+    padding: 50px 12%;
+    font-size: 24px;
+    border-top: 5px solid gray;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    height:355px;
+    width: 474px;
+    overflow: hidden;
+    object-fit: cover;
+    color: white;
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    background-image:initial;
+    overflow: auto;
+}
+
+.watch{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.stream{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/**FAQ section **/
+
+.part3{
+    border-top: 5px solid gray;
+    margin-bottom: 10px;
+}
+
+.FAQ{
+    height: 600px;
+    width: 1000px;
+    margin-top: 10px;
+    
+    
+}
+/**Frequently asked question**/
+.questions{
+    width: 1000px;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    display: block;
+    margin-left: 30%;
+    margin-right: 50%;
+    padding-left: 100px;
+}
+.btn{
+    height: 530px;
+    width: 1000px;
+    border: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.button{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-}
-
-.navigation :hover{
-    transition-duration: 0.15s;
-    opacity: 0.80;
-}
-
-
-.homesection{
-    position:  relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: url("https://i.ibb.co/Tq4s4Hf/netflixbgcoverimg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* file:///C:/Users/LENOVO/OneDrive/Desktop/tejasfoldercuzheishandsome */
-    /* "C:\Users\LENOVO\OneDrive\Desktop\tejasfoldercuzheishandsome\netflixClone\netflixbgcoverimg.jpg" */
-}
-
-.layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    z-index: 1;
-    /* opacity: 0.6; */
-    background: linear-gradient(rgba(0,0,0,10), rgba(0,0,0,0.6), rgba(0,0,0,10));
-}
-
-.activebtn {
-    background-color: red;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-}
-/* 
-.activebtn :hover{
-    transition-duration: 0.15s;
-    opacity: 0.80;
-} */
-
-
-.langbtn {
-    background: transparent;
-    border: 1px solid #fff;
-    padding: 8px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #fff;
-    margin-right: 20px;
-}
-
-/* .langbtn :hover{
-    transition-duration: 0.15s;
-    opacity: 0.80;
-} */
-
-
-/* website-logo ke liye */
-.logo{
-    width: 138px;
-    position: top-left;
-    transform: translate(20%, -28%);
-    left: 50%;
-    z-index: 3;
-}
-
-
-
-.homeheading {
-    position: relative;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    text-align: center;
-    color: #fff;
-    z-index: 3;
-}
-
-.heading {
-    top: 50%;
-    font-size: 2.0rem;
-}
-
-.subheading {
-    font-size: 1.3rem;
-    font-weight: 400;
-    top: 43%;
-    margin-top: 50px;
-}
-
-
-.minorheading {
-    font-size: 0.8rem;
-    width: 80%;
-    font-weight: 400;
-    top: 44.5%;
-    margin-bottom: 100px;
-
-}
-
-.search input {
-    font-size: large;
-    width: 500px;
-    /* font-size: 2rem; */
-    background: transparent;
-    /* padding: 10px 10px 10px 10px; */
-    z-index: 4;
-    outline: none;
-    border-radius: 10px;
-    border: solid;
-    border-color: rgb(56, 56, 56);
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 0px;
-    padding-bottom: 10px;
-    color: antiquewhite;
-}
-
-.search button {
-    cursor: pointer;
-    font-size: larger;
-    font-weight: bolder;
-    z-index: 10;
-    background-color: red;
+    border: 3px solid black;
+    height: 80px;
+    width: 1200px;
+    padding: 24px;
+    background-color: rgb(49, 48, 48);
     color: white;
-    border: none;
-    border-radius: 10px;
-    margin: auto;
-    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align:left;
+    margin-right: 80%; 
+    border: 4px solid black;
+    border-radius: 2px;
+    
+}
+.button:hover{
+    background-color: rgb(61, 60, 60);
+    
+}
+.add{
+    background-color: rgb(49, 48, 48);  
+    margin-bottom: 20px; 
 }
 
-.search :hover{
-    transition-duration: 0.15s;
-    opacity: 0.80;
+
+
+
+
+/**login details**/
+.membership{
+    height: 30px;
+    width: 1000px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-.search {
-    z-index: 10;
-    position: absolute;
-    bottom: 25%;
-    width: 100%;
-    text-align: center;
+h3{
+    height: 30px;
+    width: 890px;
+    margin-left: 0px;
+    margin-right: 313px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color:white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+
 }
-
-/* THIS LINE CODE CAN BE REUSED AGAIN & AGAIN */
-
-.line1{
+.details{
+    width: 1100px;
+    margin-left: 100px;
+    margin-top: 10px;
     margin-bottom: 50px;
-    background: rgb(46, 46, 46);
-    height: 9px;
-    width: 2000px;
-}
-
-
-.phrasebig1 {
-    font-size: 2.0rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
     
-    position: relative;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    text-align: center;
-    color: #fff;
-    z-index: 3;
 }
-
-.phrasesmall1 {
-    position: relative;
-    transform: translate(-50%, -50%);
-    top: 20%;
-    left: 50%;
-    text-align: center;
-    color: #fff;
-    z-index: 3;
-}
-
-.imganimation1 {
-    margin-left: 410px;
-    background: linear-gradient(rgba(0,0,0,10), rgba(0,0,0,0.6), rgba(0,0,0,10));
-    margin-bottom: 100px;
-    margin-top: 20px;
+input{
+    height: 30px;
+    width: 300px;
+    padding:1.5rem 3rem 0.5rem 2rem; 
+    background-color:rgb(49, 48, 48) ;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    margin-left:10%;
+    line-height: 1.5px;
     
 
-
 }
-
- /* Now next segment 2 ---->*/
+input:hover{
+    background-color:rgb(69, 68, 68) ;
+}
+.custom-cursor {
+    cursor: pointer;
+    padding: 10px;
+    line-height: 1.5px;
+    border: 1px solid #ccc;
+  }
 
  
-.line2{
-    margin-bottom: 50px;
-    background: rgb(46, 46, 46);
-    height: 9px;
-    width: 2000px;
+
+.start{
+    height: 45px;
+    width: 203px;
+    display: inline-block;
+    justify-content: wrap;
+      padding: 10px 20px;
+      background-color: #ff0000; 
+      color: #fff; 
+      text-decoration: none;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 5px;
+      margin-right: 60px;
+    }
+
+/**footer**/
+
+.bor{
+    border-top: 5px solid gray;
 }
-
-
-.phrasebig2 {
-    font-size: 2.0rem;
+.footer{
+    height: 270px;
+    width: 1050px;
+    color: white;
+    padding: 48px 48px;
+    margin:30px 105px;
     
-    position: relative;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    text-align: center;
-    color: #fff;
-    z-index: 3;
 }
-
-.phrasesmall2 {
-    position: relative;
-    transform: translate(-50%, -50%);
-    top: 20%;
-    left: 50%;
-    text-align: center;
-    color: #fff;
-    z-index: 3;
-}
-
-.imganimation2 {
-    margin-left: 270px;
-    background: linear-gradient(rgba(0,0,0,10), rgba(0,0,0,0.6), rgba(0,0,0,10));
-    margin-bottom: 100px;
-    margin-top: 20px;
+.f-top{
+    margin-top: 10%;
+    height: 34px;
+    width: 530px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 12px;
+    color: #ffffffb3;
 
 }
-
-
-/* New segment 3-------------> */
-
-
-.line3{
-    margin-bottom: 50px;
-    background: rgb(46, 46, 46);
-    height: 9px;
-    width: 2000px;
+.container{
+    display: flex;
+    flex-wrap: wrap;
 }
-
-
-.phrasebig3 {
-    font-size: 2.0rem;
+.f-rows {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px; 
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    height: 30px;
+    width: 231px;
+    padding: 5px;
     
-    position: relative;
-    transform: translate(-50%, -50%);
-    left: 50%;
+  }
+  
+
+a{
+    color: #ffffffb3;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+
+}
+.language{
+    height: 40px;
+    width: 540px;
+    margin:-8px 0px 0px -8px;
+    color: #ffffffb3;
+}
+select{
+    background-color: rgb(58, 57, 57);
+    height: 32px;
+    width: 122px;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: #ffffff;
+}
+
+option{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #ffffffb3;
+    background-color: rgb(35, 34, 34);
     text-align: center;
-    color: #fff;
-    z-index: 3;
+    padding: 6px 36px;
 }
 
-.phrasesmall3 {
-    position: relative;
-    transform: translate(-50%, -50%);
-    top: 20%;
-    left: 50%;
-    text-align: center;
-    color: #fff;
-    z-index: 3;
-}
-
-.imganimation3 {
-    margin-left: 470px;
-    background: linear-gradient(rgba(0,0,0,10), rgba(0,0,0,0.6), rgba(0,0,0,10));
-    margin-bottom: 100px;
-    margin-top: 20px;
-
-}
-
-
-/* new segment final segment 4-----------> */
-
-
-
-
-.line4{
-    margin-bottom: 50px;
-    background: rgb(46, 46, 46);
-    height: 9px;
-    width: 2000px;
-}
-
-
-.phrasebig4 {
-    font-size: 2.0rem;
-    
-    position: relative;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    text-align: center;
-    color: #fff;
-    z-index: 3;
-}
-
-.phrasesmall4 {
-    position: relative;
-    transform: translate(-50%, -50%);
-    top: 20%;
-    left: 50%;
-    text-align: center;
-    color: #fff;
-    z-index: 3;
-}
-
-.imganimation4 {
-    margin-left: 300px;
-    background: linear-gradient(rgba(0,0,0,10), rgba(0,0,0,0.6), rgba(0,0,0,10));
-    margin-bottom: 100px;
-    margin-top: 20px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-I got this block of code for our website to make things responsive from a article ---->*/
-
-@media screen and (max-width: 440px) {
-    .heading {
-        top: 30%;
-        font-size: 2rem;
-    }
-
-    .sub-heading {
-        font-size: 1.2rem;
-        top: 30%;
-        width: 80%;
-    }
-
-    .minor-heading {
-        top: 34%;
-    }
-
-    .search {
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 410px) {
-    .navigation h2 {
-        text-align: center;
-        width: 100%;
-    }
-
-    .buttons {
-        display: none;
-    }
+.last{
+    height: 42px;
+    width: 532px;
+    margin: 24px 0px 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffb3;
 }
